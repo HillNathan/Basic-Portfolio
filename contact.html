@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Me</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <!-- Include style sheet -->
+
+</head>
+<body>
+        <div class="header"> 
+                <!--Had to split header and header content to make the width of the header content work. not sure this is the best way to 
+                    do it, but it is the way that worked for me-->
+                <div class="header-content">
+                    <div class="about-me">  
+                        Nathan Hill
+                    </div>
+        
+                    <div class="navbar">
+                        <!-- I have the style for the nav bar section set to float right, which puts this info all the way to the right of 
+                             the header section. -->
+                        <button>About</button>
+                        <button>Portfolio</button>
+                        <button>Contact</button>
+                    </div>
+                </div>
+            </div>
+
+        <div class="content">
+                <h2>Contact Me</h2>
+                <hr>
+            <form>
+                <p>
+                    Name: <br>
+                    <input type="text" name="name">
+                </p>
+                <p>
+                    Email Address: <br>
+                    <input type="email" name="email_address">
+                </p>
+                <p>
+                    Message: <br>
+                    <input type="textarea" name="message">
+                </p>
+                <br>
+                <input type="submit" name="submit">
+                <br>
+            </form>
+
+        </div>
+
+        <div class="footer">
+                Copyright 2019 Nathan Hill
+        </div>
+</body>
+</html>
