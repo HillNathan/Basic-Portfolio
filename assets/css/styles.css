@@ -94,6 +94,11 @@ button {
     width: 75px;
 }
 
+button:hover {
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+
 form{
     padding: 20px;
 }
