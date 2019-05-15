@@ -1,7 +1,7 @@
 /* CSS Style Sheet for the Basic Portfolio web project */
 /*   Homework for Penn LPS Coding BootCamp             */
 /*   Completed by Nathan Hill                          */
-body{
+body {
     background-image: url("../images/interlaced.png");
     background-color: #aaaaaa;
     display: flex;
@@ -15,8 +15,8 @@ body{
     padding: 20px;
     margin-top: 20px;
     margin: auto;
-    flex: 1 0 auto;
     border: solid 1px #dddddd;
+    clear: both;
 }
 
 header {
@@ -47,7 +47,7 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.navbar {
+nav {
     float: right;
 }
 
@@ -58,7 +58,7 @@ img.bio {
     padding:10px;
 }
 
-.container{
+.container {
     /* Container DIV to allow appropriate positioning of project text */
     position:relative;
 }
@@ -99,7 +99,7 @@ button:hover {
     color: #ffffff;
 }
 
-form{
+form {
     padding: 20px;
 }
 
@@ -139,12 +139,21 @@ input[type=submit] {
     font-size: 16px;
 }
 
+input[type=reset] {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border: solid 2px #666666;
+    font-size: 16px;
+}
+
 img.portfolio {
     height: 250px;
     width: 333px;
 }
 
-td{
+td {
     margin:20px;
     padding: 20px;
 }
