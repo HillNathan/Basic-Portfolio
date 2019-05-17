@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;
+    margin: 2px;
 }
 
 .content {
@@ -42,7 +42,7 @@ header {
 .about-me {
     /* Set a style for the main header (my name) used on each page */
     display:inline;
-    background-color: #4aaaa5;
+    background-color: #8da0b4;
     color: #ffffff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 36pt;
@@ -51,10 +51,11 @@ header {
 
 h2 {
     /* Set a style for the page header on each individual page */
-    color: #4aaaa5;
+    color: #576470;
     font-size: 28pt;
     font-style: bold;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px;
 }
 
 nav {
@@ -96,8 +97,8 @@ footer {
     background-color: #666666;
     padding: 30px;
     border-top: 8px solid;
-    border-color: #4aaaa5;
-    flex-shrink: 1  ;
+    border-color: #8da0b4;
+    color: #9cb4cb;
 }
 
 button {
@@ -114,8 +115,8 @@ button {
 
 button:hover {
     /* a nice little hover element for the nav buttons */
-    background-color: #4aaaa5;
-    color: #ffffff;
+    background-color: #8da0b4   ;
+    color: #bad7f3;
 }
 
 form {
@@ -167,10 +168,10 @@ textarea {
     vertical-align: top;
 }
 
-input[type=submit] {
+.formbutton {
     box-sizing: border-box;
     padding: 10px;
-    background-color: #4aaaa5;
+    background-color: #8da0b4;
     color: #ffffff;
     border: solid 2px #666666;
     font-size: 16px;
@@ -178,13 +179,13 @@ input[type=submit] {
     text-align: center;
 }
 
-input[type=reset] {
+/* input[type=reset] {
     box-sizing: border-box;
     padding: 10px;
-    background-color: #4aaaa5;
+    background-color: #8da0b4;
     color: #ffffff;
     border: solid 2px #666666;
     font-size: 16px;
     width: 80px;
     text-align: center;
-}
+} */
